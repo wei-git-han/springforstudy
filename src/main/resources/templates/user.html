@@ -11,11 +11,10 @@
         <th>姓名</th>
         <th>地址</th>
     </tr>
-    <tr th:each="user:{users}">
+    <tr th:each="user:${users}">
         <td th:text="${user.id}"></td>
         <td th:text="${user.name}"></td>
         <td th:text="${user.deptId}"></td>
-        <td th:text="${user.id}"></td>
     </tr>
 
 </table>
