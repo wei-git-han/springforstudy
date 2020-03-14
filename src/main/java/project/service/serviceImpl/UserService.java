@@ -1,6 +1,7 @@
 package project.service.serviceImpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import project.dao.UserDao;
 import project.entity.User;
