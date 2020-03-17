@@ -6,7 +6,7 @@
         <result property="name" column="name"></result>
         <result property="deptId" column="deptId"></result>
     </resultMap>
-    <select id="getList" parameterType="string" resultType="project.entity.User">
-        select * from user_han where id = #{id}
-    </select>
+    <!--<select id="getList" parameterType="string" resultType="project.entity.User">-->
+        <!--select * from user_han where id = #{id}-->
+    <!--</select>-->
 </mapper>
