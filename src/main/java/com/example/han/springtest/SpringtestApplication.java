@@ -6,9 +6,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = {"project.controller","project.dao","project.entity","project.service.serviceImpl"})
+//@ComponentScan(basePackages = {"com.example.han.springtest"})
 @SpringBootApplication
-@MapperScan("project.dao")
+@MapperScan({"com.example.han.springtest.project.dao","com.example.han.springtest.mapper"})
 public class SpringtestApplication {
 
     public static void main(String[] args) {
