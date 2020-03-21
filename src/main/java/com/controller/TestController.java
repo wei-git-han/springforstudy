@@ -1,7 +1,7 @@
-package com.example.controller;
+package com.controller;
 
-import com.example.entity.UserTest;
-import com.example.service.UserTestService;
+import com.entity.UserTest;
+import com.service.UserTestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

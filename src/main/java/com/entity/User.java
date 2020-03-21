@@ -1,6 +1,6 @@
-package com.example.entity;
+package com.entity;
 
-public class UserTest {
+public class User {
     private int id;
     private String name;
     private String deptId;

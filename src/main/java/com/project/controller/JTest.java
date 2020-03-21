@@ -1,4 +1,4 @@
-package com.example.project.controller;
+package com.project.controller;
 
 public class JTest {
     public static void main(String args[]) {

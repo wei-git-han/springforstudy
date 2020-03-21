@@ -1,6 +1,6 @@
-package com.example.mapper.dao;
+package com.mapper.dao;
 
-import com.example.entity.User;
+import com.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

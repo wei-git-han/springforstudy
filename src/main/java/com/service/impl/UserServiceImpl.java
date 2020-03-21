@@ -1,8 +1,8 @@
-package com.example.service.impl;
+package com.service.impl;
 
-import com.example.entity.User;
-import com.example.mapper.dao.UserMapper;
-import com.example.service.UserService;
+import com.entity.User;
+import com.mapper.dao.UserMapper;
+import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
