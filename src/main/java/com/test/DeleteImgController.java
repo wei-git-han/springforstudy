@@ -1,4 +1,4 @@
-package com.project.controller;
+package com.test;
 
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
