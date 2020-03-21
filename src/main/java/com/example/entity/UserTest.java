@@ -1,6 +1,6 @@
-package com.example.han.springtest.entity;
+package com.example.entity;
 
-public class User {
+public class UserTest {
     private int id;
     private String name;
     private String deptId;

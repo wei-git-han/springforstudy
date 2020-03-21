@@ -1,4 +1,4 @@
-package com.example.han.springtest.project.controller;
+package com.example.project.controller;
 
 public class JTest {
     public static void main(String args[]) {

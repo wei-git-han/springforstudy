@@ -1,6 +1,6 @@
-package com.example.han.springtest.service;
+package com.example.service;
 
-import com.example.han.springtest.entity.User;
+import com.example.entity.User;
 
 import java.util.List;
 

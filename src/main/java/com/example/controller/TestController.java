@@ -1,7 +1,7 @@
-package com.example.han.springtest.controller;
+package com.example.controller;
 
-import com.example.han.springtest.entity.User1;
-import com.example.han.springtest.service.UserService1;
+import com.example.entity.UserTest;
+import com.example.service.UserTestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -13,12 +13,12 @@ import java.util.List;
 public class TestController {
 
     @Autowired
-    private UserService1 userService;
+    private UserTestService userService;
 
     @RequestMapping("/userlist")
     public String getUserList(ModelMap map){
-        List<User1> userList = userService.getList("11");
-        for (User1 user:userList){
+        List<UserTest> userList = userService.getList("11");
+        for (UserTest user:userList){
             System.out.println(user.getName());
         }
         map.addAttribute("users",userList);

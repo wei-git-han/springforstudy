@@ -1,6 +1,6 @@
-package com.example.han.springtest.mapper.dao;
+package com.example.mapper.dao;
 
-import com.example.han.springtest.entity.User1;
+import com.example.entity.UserTest;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 @Mapper
-public interface UserDao {
+public interface UserTestDao {
     //@Select("select * from user_han where id = #{id}")
-    List<User1> getList(String id);
+    List<UserTest> getList(String id);
 }

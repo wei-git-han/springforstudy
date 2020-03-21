@@ -1,4 +1,4 @@
-package com.example.han.springtest.project.controller;
+package com.example.project.controller;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

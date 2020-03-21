@@ -1,8 +1,8 @@
-package com.example.han.springtest.service.impl;
+package com.example.service.impl;
 
-import com.example.han.springtest.entity.User;
-import com.example.han.springtest.mapper.dao.UserMapper;
-import com.example.han.springtest.service.UserService;
+import com.example.entity.User;
+import com.example.mapper.dao.UserMapper;
+import com.example.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
