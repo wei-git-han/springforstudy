@@ -49,5 +49,6 @@ spring:
 #mybatis扫描xml文件   
 mybatis:
   mapper-locations: classpath:com/mapper/**/*.xml
-  
-  
+
+
+
