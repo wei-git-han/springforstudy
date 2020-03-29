@@ -25,6 +25,8 @@ public class UserServiceImpl implements UserService {
      * cacheNames：指定缓存组件的名字
      * key：缓存数据时使用的key，默认是使用方法的参数值 ，value是方法的返回值。
      * keyGenerator:key的生成器
+     * 缓存原理：
+     * 1.自动配置类：CacheAutoConfiguration
      * @return
      */
     @Cacheable(cacheNames = "emp")
