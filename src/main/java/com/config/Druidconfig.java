@@ -25,6 +25,7 @@ public class Druidconfig {
     
     public void Ss() {
     	System.out.println("dddd");
+    	System.out.println("dddd");
     }
 
     @Bean
