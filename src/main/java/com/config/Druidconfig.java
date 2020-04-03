@@ -17,6 +17,7 @@ import java.util.Map;
 @Configuration
 public class Druidconfig {
 
+	//就第十六届发送到了
     @Bean
     @ConfigurationProperties(prefix = "spring.datasource")
     public DataSource druidDataSource(){
