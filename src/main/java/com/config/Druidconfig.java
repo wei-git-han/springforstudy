@@ -22,6 +22,10 @@ public class Druidconfig {
     public DataSource druidDataSource(){
         return new DruidDataSource();
     }
+    
+    public void Ss() {
+    	System.out.println("dddd");
+    }
 
     @Bean
     public ServletRegistrationBean statViewServlet(){
