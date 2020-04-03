@@ -56,5 +56,9 @@ public class Druidconfig {
         return bean;
         
     }
+    
+    public void dds() {
+    	System.out.println("ddd");
+    }
 
 }
