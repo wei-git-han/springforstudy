@@ -52,4 +52,8 @@ public class Druidconfig {
         return bean;
         
     }
+    
+    public void dd() {
+    	System.out.println("ddddd");
+    }
 }
