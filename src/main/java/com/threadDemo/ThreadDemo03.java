@@ -22,7 +22,6 @@ class Demo04Thread extends Thread{
     public Demo04Thread(String s){
         this.string = s;
     }
-
     @Override
     public void run() {
         System.out.println("s="+string);
